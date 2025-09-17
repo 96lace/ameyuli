@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>૮꒰ ˶• ༝ •˶꒱ა</title>
+  <link rel="shortcut icon" type="image/gif" href="aboutmeicon.png">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+
+  <link rel="stylesheet" href="index.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet" />
+
+  <script type="text/javascript">
+    function click(e){
+      document.getElementById("teste").innerHTML = "";
+      var menu = document.getElementById("context_menu");
+      var mouseEvent = e || event;
+      if(mouseEvent.button == 2 || mouseEvent.button == 3){
+        mostrar(mouseEvent);
+        menu.onmouseout = function(e){
+          var mouseEvent = e || event;
+          var element = mouseEvent.relatedTarget || mouseEvent.toElement; 
+          if(element.nodeName != "LI"){ mouseEvent.toElement; }
+        };
+      }
+      if(mouseEvent.button == 0 || mouseEvent.button == 1){ esconder(); }
+    }
+    document.onmousedown = click;
+    document.oncontextmenu = function(){ return false; };
+    function mostrar(e){
+      var menu = document.getElementById("context_menu");
+      menu.style.display = "block";
+      menu.style.top = e.pageY + 5 + "px";
+      menu.style.left = e.pageX + 5 + "px";
+    }
+    function esconder(){
+      setTimeout(function(){
+        var menu = document.getElementById("context_menu");
+        menu.style.display = "none"
+      }, 100);
+    }
+  </script>
+
+  <script type="text/javascript">
+    if(navigator.userAgent.match(/Mobile|Windows Phone|Lumia|Android|iPhone|iPod|Blackberry|PlayBook|BB10|Opera Mini|\bCrMo\/|Opera Mobi/i)){
+      location.replace("mobile.html");
+    }
+  </script>
+
+  <style>
+    .kofi2 {
+      background-color: #e7dedd;
+      padding: 10px;
+      color: #a29d9d;
+      border-radius: 20px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      font-weight: 900;
+    }
+    .kofi2:hover {
+      background-color: #d4c7c7;
+      color: #ffffff;
+    }
+    .leftside a {
+      color: #a29d9d;
+      text-decoration: none;
+    }
+    .leftside a:hover {
+      color: #b7a8a8;
+      text-decoration: underline;
+    }
+    .rightside-section {
+      display: none;
+      margin-bottom: 20px;
+    }
+
+    /* hide all sections except home on load */
+    section {
+      display: none;
+    }
+    #about {
+      display: block;
+    }
+  </style>
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+  <div class="everything">
+
+    <!-- About Section -->
+    <div class="everythingHome">
+      <section id="about" class="about">
+        <div id="infoAge" class="smallInfo">19 <span>𓇼</span></div>
+        <div id="infoMbti" class="smallInfo">infj</div>
+        <a href="https://ko-fi.com/jsisoul" target="_blank" id="kofi2" class="kofi2">store</a>
+
+        <nav>
+          <ul id="nav-links">
+            <li><a href="#portfolio" class="portfolio2">portfolio</a></li>
+            <li><a href="#commissions" class="commissions2">commissions</a></li>
+          </ul>
+        </nav>
+
+        <div id="twitter" class="socialmedia">
+          <a href="https://x.com/jsisoul_" target="_blank">
+            <img src="https://files.catbox.moe/f79l3v.png">
+          </a>
+        </div>
+        <div id="pinterest" class="socialmedia">
+          <a href="https://uk.pinterest.com/jsisoul_/_profile/" target="_blank">
+            <img src="https://files.catbox.moe/m5fs32.png">
+          </a>
+        </div>
+        <div id="toyhouse" class="socialmedia">
+          <a href="https://toyhou.se/jsisoul_" target="_blank">
+            <img src="https://files.catbox.moe/xxt3dl.png">
+          </a>
+        </div>
+
+        <div class="portrait">
+          <div class="placeholder">
+            <img src="https://files.catbox.moe/v53qxk.png" id="portrait2">
+          </div>
+        </div>
+
+        <header>
+          <div class="logo"> ꒰ ⌢୨୧⌢ ꒱</div>
+          <div class="banner">jsisoul_</div>
+          <div class="menu-toggle" id="menu-toggle">
+            <span></span><span></span><span></span>
+          </div>
+        </header>
+
+        <div id="paragraph1">
+          hello, welcome to my website ❥. here you can view my portfolio and other things i haven't posted on my social media accounts ❋.
+          <br><br>
+          thank you for visiting ও , i hope you enjoy your stay <br> ෆ .
+        </div>
+
+        <div class="borderfinal2"></div>
+        <div class="borderfinal"></div>
+        <footer>
+          <p>coded by me ੭୧ all rights reserved </p>
+        </footer>
+      </section>
+    </div>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+      <h2>portfolio ୭ৎ </h2>
+      <div class="displayportfolio">
+        <div class="leftside">
+          <p id="headers">❥ 2d art</p>
+          ⟶ <a href="#fanart">fanart</a><br>
+          ⟶ <a href="#oc-related">oc-related</a><br><br>
+
+          <p id="headers">❥ 3d art</p>
+          ⟶ <a href="#assets">assets</a><br><br>
+
+          <p id="headers">❥ adopts</p>
+          ⟶ <a href="#designs">designs</a><br><br>
+
+          <p id="headers">❥ pixel art</p>
+          ⟶ <a href="#cursors">cursors</a><br>
+          ⟶ <a href="#illustrations">illustra-tions</a><br><br>
+
+          <p id="headers">❥ roblox</p>
+          ⟶ <a href="#avatar">avatar art</a><br>
+          ⟶ <a href="#clothes">clothes</a><br>
+          ⟶ <a href="#ugc-concepts">ugc conc-epts</a><br><br>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="rightside">
+          <div id="fanart" class="rightside-section">ও⠀⠀     ‧˚ 2d art > fanart </div>
+          <div id="oc-related" class="rightside-section">ও⠀⠀     ‧˚ 2d art > oc-related</div>
+          <div id="assets" class="rightside-section">❀　     ‧˚ 3d art > assets</div>
+          <div id="designs" class="rightside-section">ɞ　     ‧˚ adopts > designs</div>
+          <div id="cursors" class="rightside-section">⟡　     ‧˚ pixel > cursors</div>
+          <div id="illustrations" class="rightside-section">⟡　     ‧˚ pixel > illustrations</div>
+          <div id="avatar" class="rightside-section">𓇼　     ‧˚ roblox > avatar art</div>
+          <div id="clothes" class="rightside-section">𓇼　     ‧˚ roblox > clothes</div>
+          <div id="ugc-concepts" class="rightside-section">𓇼　     ‧˚ roblox > ugc-concepts</div>
+        </div>
+      </div>
+      <button class="back-home" data-target="about">back to home</button>
+      <div class="borderfinal3"></div>
+      <div id="footer2">
+        <p>coded by me ੭୧ all rights reserved </p>
+      </div>
+    </section>
+
+    <!-- Commissions Section -->
+    <section id="commissions" class="commissions">
+      <h2>commissions ੭୧ </h2>
+      <div class="commcontainer">
+        <p>status: <strong>closed</strong></p>
+        <div class="arrowanim">➜</div>
+        <a href="#tos" class="tos" style="text-decoration: none;">tos/please read</a>
+      <div class="commtable">
+        <div class="will">
+          
+        </div>
+      </div>
+       </div>
+      <button class="back-home" data-target="about">back to home</button>
+      <div class="borderfinal5"></div>
+      <div id="footer3">
+        <p>coded by me ੭୧ all rights reserved </p>
+      </div>
+    </section>
+
+    <!-- Terms of Service Section -->
+    <section id="tos" class="tos-section">
+      <h2>terms of service ୭ৎ</h2>
+      <div class="tos-content">
+        <p>please read carefully before commissioning/adopting: </p>
+        <br>
+        <h3>adopts  ୨୧</h3>
+        <div id="adopts">
+         ꒰୨୧꒱ if you win a bid but fail to pay, you will be permanently
+            blacklisted from future sales.
+          <br>
+         ꒰୨୧꒱ reselling is permitted but for no more than you bought it for.
+         <br>
+         ꒰୨୧꒱ comes with personal license. upgrade to commercial license for <strong>+45%</strong> of the adopt's price.
+        </div>
+        <br>
+        <h3>commissions  ୨୧</h3>
+        <div id="commissions11">
+          ꒰୨୧꒱ personal use only.
+          <br>
+          ꒰୨୧꒱ please do not trace it or claim it as your own work.
+          <br>
+          <br>
+         <h3>custom design  ୨୧</h3>
+        <div id="customdesign">
+          ꒰୨୧꒱ includes commercial license by default.
+          <br>
+          ꒰୨୧꒱ please do not trace it or claim it as your own work.
+        </div>
+        <div id="lasttwo">
+          <h3 id="paymentrelated1">payment-related  ୨୧</h3>
+        <div id="paymentrelated">
+          ꒰୨୧꒱ i take payments through ko-fi, but please let me know if it's not available in your region.
+          <br>
+          ꒰୨୧꒱ please do not trace it or claim it as your own work.
+          <br>
+          ꒰୨୧꒱ refunds are accepted up to 24h. full refunds permitted if i cannot finish your request.
+          <br>
+          ꒰୨୧꒱ chargebacks result in an immediate and permanent blacklist, i will also revoke your ownership of any work purchased from me.
+        </div>
+         <h3 id="commother1">other  ୨୧</h3>
+        <div id="commother">
+          ꒰୨୧꒱ please do not feed the art to AI or use as NFTs.
+          <br>
+          ꒰୨୧꒱ all work will take 7-14 days, please let me know in advance if there is a deadline.
+          <br>
+          ꒰୨୧꒱ i will send you the base sketch first, where i will ask you if there is anything you would like me to fix. when i begin colouring any requested changes will be tedious and slow down your order.
+          <br>
+          ꒰୨୧꒱ please email/contact me for any enquiries. i am a university student so my schedule is quite busy.
+          <br>
+          ꒰୨୧꒱ i retain the right to display all purchased work on my portfolio and social media.
+        </div>
+        </div>
+      </div>
+      <!-- UPDATED BACK BUTTON -->
+      <button class="back-home" data-target="commissions" id="backcommissions">back to commissions</button>
+    </section>
+
+  </div>
+
+  <!-- JavaScript -->
+  <script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const navLinks = document.getElementById('nav-links');
+    const sections = document.querySelectorAll("section");
+    const navAnchors = document.querySelectorAll("nav a, .tos");
+    const backButtons = document.querySelectorAll(".back-home");
+    const leftLinks = document.querySelectorAll(".leftside a");
+
+    // Hamburger toggle
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+
+    // Hide all right-side sections
+    function hideAllRightSections() {
+      document.querySelectorAll(".rightside-section").forEach(sec => sec.style.display = "none");
+    }
+
+    // Show one right-side section by ID
+    function showRightSection(id) {
+      hideAllRightSections();
+      const section = document.getElementById(id);
+      if(section) section.style.display = "block";
+    }
+
+    // Nav links + tos link
+    navAnchors.forEach(link => {
+      link.addEventListener("click", e => {
+        e.preventDefault();
+        const targetId = link.getAttribute("href").substring(1);
+
+        sections.forEach(sec => sec.style.display = (sec.id === targetId) ? "block" : "none");
+
+        // Default Portfolio view
+        if(targetId === "portfolio") showRightSection("fanart");
+
+        document.getElementById(targetId).scrollIntoView({ behavior: "smooth" });
+        navLinks.classList.remove("active");
+      });
+    });
+
+    // Left-side links
+    leftLinks.forEach(link => {
+      link.addEventListener("click", e => {
+        e.preventDefault();
+        const targetId = link.getAttribute("href").substring(1);
+        showRightSection(targetId);
+        document.getElementById(targetId).scrollIntoView({ behavior: "smooth" });
+      });
+    });
+
+    // Back to Home / Commissions buttons
+    backButtons.forEach(btn => {
+      btn.addEventListener("click", () => {
+        const targetId = btn.getAttribute("data-target");
+        sections.forEach(sec => sec.style.display = (sec.id === targetId) ? "block" : "none");
+        hideAllRightSections();
+        document.getElementById(targetId).scrollIntoView({ behavior: "smooth" });
+      });
+    });
+
+    // On page load
+    hideAllRightSections();
+  </script>
+</body>
+</html>

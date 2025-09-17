@@ -171,7 +171,7 @@ nav a {
 
 #toyhouse {
     transform: scale(.035);
-    margin-left: -330px;
+    margin-left: -280px;
 }
 #toyhouse:hover {
     transform: scale(.04);

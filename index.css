@@ -138,6 +138,84 @@ nav a {
     border-radius: 3px;
 }
 
+.portfoliocontainer{
+    position:fixed;
+    margin-top:10px;
+    width: 520px;
+    height: 580px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#hatsunemiku{
+    margin-top: 9px;
+    width: 500px;
+    height: 500px;
+    background-image:url('https://files.catbox.moe/gdgtw9.png');
+    background-size: 100%;
+}
+
+#hatsunecaption{
+    margin-top: -57px;
+    position: fixed;
+    font-size: 24px;
+    color:#837570;
+}
+
+#fanartcontainer{
+    margin-top: 50px;
+}
+
+#mariecaption{
+    margin-top: -10px;
+    padding-bottom: 20px;
+    font-size: 24px;
+    color:#837570;
+}
+
+#marie1{
+    margin-top: 0px;
+    width: 500px;
+    height: 400px;
+    background-image:url('https://files.catbox.moe/2ri74s.png');
+    background-size: 100%;
+}
+
+#marie2{
+    margin-top: -110px;
+    margin-left: -130px;
+    width: 500px;
+    height: 500px;
+    background-image:url('https://files.catbox.moe/3cqtea.png');
+    background-size: 100%;
+    transform: scale(.48);
+}
+
+#marie3{
+    margin-top: -500px;
+    margin-left: 128px;
+    width: 500px;
+    height: 500px;
+    background-image:url('https://files.catbox.moe/2pulrn.png');
+    background-size: 100%;
+    transform: scale(.48);
+}
+
+#oc2caption{
+    margin-top: -120px;
+    font-size: 24px;
+    color:#837570;
+}
+
+#unnamedoc{
+    margin-top: 20px;
+    padding-bottom: 200px;
+    width: 500px;
+    height: 260px;
+    background-image:url('https://files.catbox.moe/xkkl9z.png');
+    background-size: 100%;
+}
+
 #nav-links {
     position: fixed;
     margin-top: 620px;
@@ -171,7 +249,7 @@ nav a {
 
 #toyhouse {
     transform: scale(.035);
-    margin-left: -280px;
+    margin-left: -325px;
 }
 #toyhouse:hover {
     transform: scale(.04);

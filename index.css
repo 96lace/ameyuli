@@ -142,7 +142,7 @@ nav a {
     position:fixed;
     margin-top:10px;
     width: 520px;
-    height: 580px;
+    height: 550px;
     overflow-y: auto;
     overflow-x: hidden;
 }
@@ -345,13 +345,13 @@ section h2 {
 
 .displayportfolio{
     height: 700px;
-    width: 600px;
+    width: 500px;
 }
 
 .leftside{
     background-color: #f7f7f7;
     border: 3px dotted #dddcdc;
-    height: 680px;
+    height: 630px;
     width: 200px;
     border-radius: 2%;
     padding-top: 6px;
@@ -361,18 +361,18 @@ section h2 {
 }
 
 .divider{
-    margin-top: -680px;
+    margin-top: -630px;
     margin-left: 220px;
-    height: 680px;
+    height: 630px;
     width: 1px;
     background-color: #f7f7f7;
     border-left: #a29d9d 2px dotted;
 }
 
 .rightside{
-     margin-top: -680px;
+     margin-top: -630px;
     margin-left: 240px;
-    height: 680px;
+    height: 630px;
     width: 570px;
      background-color: #f7f7f7;
     border: 3px dotted #dddcdc;
@@ -395,11 +395,11 @@ section h2 {
      border: 3px dotted #dddcdc;
      padding: 10px;
      border-radius: 4%;
-     height: 700px;
+     height: 500px;
 }
 
 .commissions{
-    margin-top: -120px;
+    margin-top: -240px;
     color:#e5d1cf;
     transform: scale(.9);
 }
@@ -543,7 +543,12 @@ h3{
     color: #a29d9d;
 }
 
-.borderfinal, .borderfinal2, .borderfinal3, .borderfinal4 {
+#portfolioback{
+    position: fixed;
+     margin-top: -40px;
+}
+
+.borderfinal, .borderfinal2, .borderfinal3, .borderfinal4, .borderfinal5 {
     position: fixed;
     align-items: center;
     background-color: #cbc6c5;
@@ -580,7 +585,7 @@ footer {
 }
 
 .borderfinal3{
- margin-top: 40px;
+ margin-top:30px;
     margin-left: 10px;
     width: 800px;
 }
@@ -606,6 +611,13 @@ footer {
     padding: 2rem;
     font-size: 0.9rem;
     transform: scale(1.2);
+}
+
+
+.borderfinal5{
+ margin-top: 39px;
+    margin-left: 10px;
+    width: 800px;
 }
 
 

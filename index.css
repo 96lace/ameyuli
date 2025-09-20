@@ -225,7 +225,7 @@ nav a {
     margin-top: 200px;
 }
 
-#twitter, #pinterest, #toyhouse {
+#twitter, #tiktok, #toyhouse {
     position: fixed;
     margin-top: -220px;
     margin-left: -372px;
@@ -239,11 +239,11 @@ nav a {
     transform: scale(.035);
 }
 
-#pinterest {
+#tiktok {
     transform: scale(.03);
     margin-left: -325px;
 }
-#pinterest:hover {
+#tiktok:hover {
     transform: scale(.035);
 }
 

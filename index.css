@@ -351,7 +351,7 @@ section h2 {
 .leftside{
     background-color: #f7f7f7;
     border: 3px dotted #dddcdc;
-    height: 630px;
+    height: 580px;
     width: 200px;
     border-radius: 2%;
     padding-top: 6px;
@@ -365,18 +365,18 @@ section h2 {
 }
 
 .divider{
-    margin-top: -630px;
+    margin-top: -580px;
     margin-left: 220px;
-    height: 630px;
+    height: 580px;
     width: 1px;
     background-color: #f7f7f7;
     border-left: #a29d9d 2px dotted;
 }
 
 .rightside{
-     margin-top: -630px;
+     margin-top: -580px;
     margin-left: 240px;
-    height: 630px;
+    height: 580px;
     width: 570px;
      background-color: #f7f7f7;
     border: 3px dotted #dddcdc;
@@ -392,7 +392,7 @@ section h2 {
 
 .containeroc{
     width: 530px;
-    height: 570px;
+    height: 520px;
     overflow-x: hidden;
     overflow-y: show;
     background-color: #dfd8d800;
@@ -581,7 +581,7 @@ footer {
 }
 
 #footer2 {
-    margin-top: 90px;
+    margin-top: 80px;
     margin-left: 00px;
     width: 900px;
     text-align: center;

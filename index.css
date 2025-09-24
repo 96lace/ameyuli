@@ -357,7 +357,7 @@ section h2 {
     padding-top: 6px;
     padding-left: 20px;
     color: #b1a4a5;
-    overflow-y: hidden;
+    overflow-y: auto;
 }
 
 .robloxstuff{

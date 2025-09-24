@@ -92,9 +92,9 @@ header {
 }
 
 .placeholder {
-   margin-top: -1435px;
-   margin-left: -122px;
-   transform:scale(.044);
+   margin-top: -133px;
+   margin-left: -63px;
+   transform:scale(.32);
 }
 
 nav {
@@ -360,6 +360,10 @@ section h2 {
     overflow-y: hidden;
 }
 
+.robloxstuff{
+    margin-top: -10px;
+}
+
 .divider{
     margin-top: -630px;
     margin-left: 220px;
@@ -386,8 +390,40 @@ section h2 {
     color:#333;
 }
 
+.containeroc{
+    width: 530px;
+    height: 570px;
+    overflow-x: hidden;
+    overflow-y: show;
+    background-color: #dfd8d800;
+}
+
+#ivyminnie{
+    margin-top: 20px;
+    color:#7f726e;
+    font-size: 23px;
+}
+
+
+
+#ivyminniechibi{
+   margin-top: 20px;
+   height: 280px;
+   width: 600px;
+   background-image: url('https://files.catbox.moe/7jv0mf.jpeg');
+   background-size: 90%;
+}
+
+#minnie1{
+   margin-top: 20px;
+   height: 650px;
+   width: 600px;
+   background-image: url('https://files.catbox.moe/xkd4m6.png');
+   background-size: 90%;
+}
+
 #headers{
-    font-size:22px;
+    font-size:21px;
     color:#837570;
 }
 
@@ -454,52 +490,21 @@ h2{
     height: 720px;
 }
 
+p1{
+    color:#7d7c7c;
+    font-size: 22px;
+}
+
 h3{
-    color: #dec9c9;
+    font-size: 24px;
+    color: #cbb9b9;
 }
 
-#adopts{
-    height: 200px;
-    width: 300px;
-    overflow-y: auto;
+.adoptablesinfo{
+    margin-top: 20px;
 }
 
-#commissions11{
-     width: 300px;
-}
 
-#paymentrelated1{
-    margin-top: -624px;
-    margin-left: 500px;
-    width: 300px;
-}
-
-#paymentrelated{
-     margin-top: 00px;
-    margin-left: 500px;
-    width: 300px;
-    height: 206px;
-    overflow-y: auto;
-}
-
-#commother1{
-    position: fixed;
-    margin-top: 24px;
-    margin-left: 500px;
-    width: 300px;
-}
-
-#commother{
-    margin-top: 60px;
-    margin-left: 500px;
-    width: 300px;
-    height: 206px;
-    overflow-y: auto;
-}
-
-#lasttwo{
-    margin-left: -100px;
-}
 
 #backcommissions{
      margin-top:170px !important;
@@ -545,7 +550,7 @@ h3{
 
 #portfolioback{
     position: fixed;
-     margin-top: -40px;
+     margin-top: 30px;
 }
 
 .borderfinal, .borderfinal2, .borderfinal3, .borderfinal4, .borderfinal5 {
@@ -556,19 +561,19 @@ h3{
 }
 
 .borderfinal {
-    margin-top: 81px;
+    margin-top: 108px;
     margin-left: 40px;
     width: 430px;
 }
 
 .borderfinal2 {
-    margin-top: -80px;
+    margin-top: -45px;
     margin-left: 37px;
     width: 120px;
 }
 
 footer {
-    margin-top: 60px;
+    margin-top: 75px;
     text-align: center;
     color: #837570;
     padding: 2rem;
@@ -576,7 +581,9 @@ footer {
 }
 
 #footer2 {
-    margin-top: 20px;
+    margin-top: 90px;
+    margin-left: 00px;
+    width: 900px;
     text-align: center;
     color: #837570;
     padding: 2rem;
@@ -585,7 +592,7 @@ footer {
 }
 
 .borderfinal3{
- margin-top:30px;
+ margin-top:100px;
     margin-left: 10px;
     width: 800px;
 }

@@ -239,12 +239,14 @@ nav a {
     transform: scale(.035);
 }
 
-#tiktok {
-    transform: scale(.03);
-    margin-left: -325px;
+#trello {
+    position: fixed;
+    transform: scale(.045);
+    margin-top: -50px;
+    margin-left: -160px;
 }
-#tiktok:hover {
-    transform: scale(.035);
+#trello:hover {
+    transform: scale(.05);
 }
 
 #toyhouse {
@@ -337,7 +339,7 @@ section h2 {
 }
 
 .portfolio{
-    margin-top: -280px;
+    margin-top: -240px;
     color:#e5d1cf;
     transform: scale(.9)
 }
@@ -351,7 +353,7 @@ section h2 {
 .leftside{
     background-color: #f7f7f7;
     border: 3px dotted #dddcdc;
-    height: 580px;
+    height: 460px;
     width: 200px;
     border-radius: 2%;
     padding-top: 6px;
@@ -365,18 +367,18 @@ section h2 {
 }
 
 .divider{
-    margin-top: -580px;
+    margin-top: -460px;
     margin-left: 220px;
-    height: 580px;
+    height: 460px;
     width: 1px;
     background-color: #f7f7f7;
     border-left: #a29d9d 2px dotted;
 }
 
 .rightside{
-     margin-top: -580px;
+     margin-top: -460px;
     margin-left: 240px;
-    height: 580px;
+    height: 460px;
     width: 570px;
      background-color: #f7f7f7;
     border: 3px dotted #dddcdc;
@@ -390,37 +392,7 @@ section h2 {
     color:#333;
 }
 
-.containeroc{
-    width: 530px;
-    height: 520px;
-    overflow-x: hidden;
-    overflow-y: show;
-    background-color: #dfd8d800;
-}
 
-#ivyminnie{
-    margin-top: 20px;
-    color:#7f726e;
-    font-size: 23px;
-}
-
-
-
-#ivyminniechibi{
-   margin-top: 20px;
-   height: 280px;
-   width: 600px;
-   background-image: url('https://files.catbox.moe/7jv0mf.jpeg');
-   background-size: 90%;
-}
-
-#minnie1{
-   margin-top: 20px;
-   height: 650px;
-   width: 600px;
-   background-image: url('https://files.catbox.moe/xkd4m6.png');
-   background-size: 90%;
-}
 
 #headers{
     font-size:21px;
@@ -550,7 +522,7 @@ h3{
 
 #portfolioback{
     position: fixed;
-     margin-top: 30px;
+     margin-top: -210px;
 }
 
 .borderfinal, .borderfinal2, .borderfinal3, .borderfinal4, .borderfinal5 {
@@ -581,7 +553,7 @@ footer {
 }
 
 #footer2 {
-    margin-top: 80px;
+    margin-top: -130px;
     margin-left: 00px;
     width: 900px;
     text-align: center;
@@ -592,7 +564,7 @@ footer {
 }
 
 .borderfinal3{
- margin-top:100px;
+ margin-top:-132px;
     margin-left: 10px;
     width: 800px;
 }

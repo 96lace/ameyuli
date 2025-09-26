@@ -41,7 +41,6 @@
     }
   </script>
 
-
   <style>
     .kofi2 {
       background-color: #e7dedd;
@@ -76,6 +75,11 @@
     #about {
       display: block;
     }
+
+    /* Safety net: rightside sections only show if portfolio is visible */
+    #portfolio:not([style*="display: block"]) .rightside-section {
+      display: none !important;
+    }
   </style>
 
    <script type="text/javascript">
@@ -105,6 +109,12 @@
         <div id="twitter" class="socialmedia">
           <a href="https://x.com/ameyuli__" target="_blank">
             <img src="https://files.catbox.moe/f79l3v.png">
+          </a>
+        </div>
+
+        <div id="trello" class="socialmedia">
+          <a href="https://trello.com/b/2OSWXNoS/to-do-%EF%BD%A1-%E1%AE%AB-%E0%BB%91" target="_blank">
+            <img src="https://files.catbox.moe/0a85jm.png">
           </a>
         </div>
 
@@ -146,7 +156,8 @@
           ⟶ <a href="#oc-related">oc-related</a><br><br>
 
           <p id="headers">❥ 3d art</p>
-          ⟶ <a href="#assets">assets</a><br><br>
+          ⟶ <a href="#assets">assets</a><br>
+          ⟶ <a href="#roblox">roblox ugc</a><br><br>
 
           <p id="headers">❥ adopts</p>
           ⟶ <a href="#designs">designs</a><br><br>
@@ -154,30 +165,17 @@
           <p id="headers">❥ game dev</p>
           ⟶ <a href="#gamedev">ugly duckling</a><br><br>
 
-          <p id="headers" class="robloxstuff">❥ roblox</p>
-          ⟶ <a href="#avatar">avatar art</a><br>
-          ⟶ <a href="#clothes">clothes</a><br>
-          ⟶ <a href="#ugc-concepts">ugc conc-epts</a><br><br>
         </div>
 
         <div class="divider"></div>
 
         <div class="rightside">
-          <div id="fanart" class="rightside-section">ও⠀⠀     ‧˚ 2d art > fanart </div>
-          <div id="oc-related" class="rightside-section">ও⠀⠀     ‧˚ 2d art > oc-related
-            <div class="containeroc">
-            <div id="ivyminnie">
-              ivy and minnie (r ➜ l)
-            </div>
-            <div id="ivyminniechibi"></div>
-            <div id="minnie1"></div>
-          </div>
+          <div id="fanart" class="rightside-section">ও⠀⠀     ‧˚ 2d art > fanart</div>
+          <div id="oc-related" class="rightside-section">ও⠀⠀     ‧˚ 2d art > oc-related</div>
           <div id="assets" class="rightside-section">❀　     ‧˚ 3d art > assets</div>
+          <div id="roblox" class="rightside-section">❀　     ‧˚ 3d art > roblox ugc</div>
           <div id="designs" class="rightside-section">ɞ　     ‧˚ adopts > designs</div>
-           <div id="gamedev" class="rightside-section">ɞ　     ‧˚ game dev > ugly duckling</div>
-          <div id="avatar" class="rightside-section">𓇼　     ‧˚ roblox > avatar art</div>
-          <div id="clothes" class="rightside-section">𓇼　     ‧˚ roblox > clothes</div>
-          <div id="ugc-concepts" class="rightside-section">𓇼　     ‧˚ roblox > ugc-concepts</div>
+          <div id="gamedev" class="rightside-section">ɞ　     ‧˚ game dev > ugly duckling</div>
         </div>
       </div>
       <button class="back-home" data-target="about" id="portfolioback">back to home</button>
@@ -194,12 +192,11 @@
         <p>status: <strong>closed</strong></p>
         <div class="arrowanim">➜</div>
         <a href="#tos" class="tos" style="text-decoration: none;">tos/please read</a>
-      <div class="commtable">
-        <div class="will">
-          
+        <div class="commtable">
+          <div class="will">
+          </div>
         </div>
       </div>
-       </div>
       <button class="back-home" data-target="about">back to home</button>
       <div class="borderfinal5"></div>
       <div id="footer3">
@@ -213,35 +210,34 @@
       <div class="tos-content">
         <p>please read carefully before adopting/commissioning: </p>
         <div class="adoptablesinfo">
-        <h3>adoptables ౨ৎ </h3>
-        <p1>
-          ୨୧ all adoptables come with a commercial license, all i ask is that you give credit for the design.
-          <br>
-          ୨୧ reselling is permitted, but only for up to what you paid originally for the adoptable.
-          <br>
-        </p1>
+          <h3>adoptables ౨ৎ </h3>
+          <p1>
+            ୨୧ all adoptables come with a commercial license, all i ask is that you give credit for the design.
+            <br>
+            ୨୧ reselling is permitted, but only for up to what you paid originally for the adoptable.
+            <br>
+          </p1>
         </div>
 
-         <div class="commissionsinfo">
-        <h3>commissions ౨ৎ </h3>
-        <p1>
-          ୨୧ will draw ☺︎: ocs, kemonomimi, groups up to 3, simple backgrounds, suggestive of 18+ characters.
-          <br>
-          ୨୧ will not draw ☹: fanart, real-life people, gore, nsfw, loli/shota, mecha, complex backgrounds.
-          <br>
-        </p1>
+        <div class="commissionsinfo">
+          <h3>commissions ౨ৎ </h3>
+          <p1>
+            ୨୧ will draw ☺︎: ocs, kemonomimi, groups up to 3, simple backgrounds, suggestive of 18+ characters.
+            <br>
+            ୨୧ will not draw ☹: fanart, real-life people, gore, nsfw, loli/shota, mecha, complex backgrounds.
+            <br>
+          </p1>
         </div>
 
         <div class="customsinfo">
-        <h3>custom designs ౨ৎ </h3>
-        <p1>
-          ୨୧ 
-          <br>
-          ୨୧ will not draw ☹: fanart, real-life people, gore, nsfw, loli/shota, mecha, complex backgrounds.
-          <br>
-        </p1>
+          <h3>custom designs ౨ৎ </h3>
+          <p1>
+            ୨୧ 
+            <br>
+            ୨୧ will not draw ☹: fanart, real-life people, gore, nsfw, loli/shota, mecha, complex backgrounds.
+            <br>
+          </p1>
         </div>
-        
       </div>
       <!-- UPDATED BACK BUTTON -->
       <button class="back-home" data-target="commissions" id="backcommissions">back to commissions</button>
@@ -281,17 +277,21 @@
         e.preventDefault();
         const targetId = link.getAttribute("href").substring(1);
 
+        // Hide all sections except the target
         sections.forEach(sec => sec.style.display = (sec.id === targetId) ? "block" : "none");
 
+        // Always hide portfolio’s rightside panels unless we’re staying in portfolio
+        hideAllRightSections();
+
         // Default Portfolio view
-        if(targetId === "portfolio") showRightSection("fanart");
+        if (targetId === "portfolio") showRightSection("fanart");
 
         document.getElementById(targetId).scrollIntoView({ behavior: "smooth" });
         navLinks.classList.remove("active");
       });
     });
 
-    // Left-side links
+    // Left-side links (inside portfolio)
     leftLinks.forEach(link => {
       link.addEventListener("click", e => {
         e.preventDefault();

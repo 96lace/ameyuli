@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "kodomo";
-    src: url('KodomoRounded-Light.otf');
+    font-family: "gothic";
+    src: url('https://files.catbox.moe/kgizss.TTFf');
 }
 
 @font-face {
@@ -21,7 +21,7 @@ body, html {
     overflow-y: hidden;
     line-height: 1.6;
     background-color: #f7f7f7;
-    font-family: 'kodomo';
+    font-family: 'gothic';
     font-weight: 500;
     font-size: 20px;
     cursor: url(blackcursor12.png), auto;
@@ -61,44 +61,14 @@ a:-webkit-any-link {
     cursor: url(blackcursor13.png), pointer;
 }
 
-.wiggle-text {
-  display: inline-block;
-  font-size: 38px;
-  font-weight: bold;
-  margin-left: 30px;
-  width: 1000px;
-}
-
-.wiggle-text span {
-  display: inline-block;
-  animation: wiggle 0.4s forwards;
-  animation-delay: calc(var(--i) * 0.5s);
-}
-
-/* Wiggle keyframes: up then back down */
-@keyframes wiggle {
-  0%, 50%, 100% { transform: translateY(0); }
-  25% { transform: translateY(-8px); }
-}
-
-/* Pause after the last letter */
-.wiggle-text span:last-child {
-  animation-delay: calc(var(--i) * 0.15s + 1s);
-}
-
-/* Repeat the whole sequence */
-.wiggle-text span {
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-}
 
 .everything{
   position: fixed;
-  margin-top: 500px;
-  margin-left: 500px;
+  margin-top: 680px;
+  margin-left: 900px;
   align-self: center;
   width: 400px;
-  transform: scale(2);
+  transform: scale(4);
 }
 
 .name{

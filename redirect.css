@@ -101,37 +101,16 @@ a:-webkit-any-link {
   transform: scale(2);
 }
 
-#explanation{
-  color:#aeabab;
+.name{
+  margin-left: -6px;
+  color: #ccaeae;
 }
 
-#border{
-  margin-top: 20px;
-  height: 1px;
-  width: 400px;
-  background-color: #aeabab;
+a{
+  color:#555;
+  margin-left: 30px;
 }
 
-#color1{
-  color:#cbc5c5 ;
-}
-
-#color2{
-  color:#ecd9db ;
-}
-
-.socialmedia{
-  position: fixed;
-  margin-top: -390px;
-  margin-left: -405px;
-  transform: scale(.04);
-}
-
-#twitter:hover {
-    transform: scale(.044);
-}
-
-#tiktok{
-  position: fixed;
-  margin-left: -300px;
+#pin{
+  margin-left: 20px;
 }
